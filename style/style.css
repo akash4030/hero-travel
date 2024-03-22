@@ -1,0 +1,181 @@
+/* Bismillah  */
+
+
+/* shared style */
+* {
+    font-family: "Mulish", sans-serif;
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+/* close shared style */
+
+/* header part */
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    margin: 58px 0;
+}
+
+.header-left h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-left h1>span {
+    color: #FF5400;
+}
+
+.header-right {
+    margin-right: 0;
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
+    gap: 2.8rem;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* header-banner */
+
+.header-banner {
+    background-image: url("./Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.header-banner h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 130px;
+    padding-bottom: 24px;
+}
+
+.header-banner p {
+    text-align: center;
+    max-width: 676px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+
+.header-banner-btn {
+    padding-bottom: 106px;
+
+}
+
+.banner-baton {
+    width: 820px;
+    height: 83px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 24px;
+    margin-left: 24px;
+    padding: 16px;
+
+}
+
+.banner-btn-2 {
+    background-color: #FF5400;
+}
+
+/* responsive media queries */
+
+/* mobile devieces */
+
+@media screen and (max-width: 576px) {
+    .header-main {
+        flex-direction: column;
+        margin: 5px;
+        align-items: start;
+    }
+
+    .header-left {
+        margin: 15px 0px;
+    }
+
+    .header-left img {
+        width: 28.724px;
+        height: 33.516px
+    }
+
+    .header-left-text h1 {
+        font-size: 1.7rem;
+        margin-left: 10px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .header-banner {
+        width: 335px;
+    
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header-banner h1 {
+        font-size: 1.3rem;
+        padding: 64px 32px;
+        padding-bottom: 20px;
+    }
+    .header-banner p{
+        font-size: 1rem;
+        margin-bottom: 32px;
+        padding: 0;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .header-banner-btn{
+        padding-bottom: 32px;
+    }
+
+    .banner-baton {
+        display: flex;
+        width: 240px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+     
+    }
+
+    .banner-btn {
+        margin-bottom: 15px;
+    }
+}
