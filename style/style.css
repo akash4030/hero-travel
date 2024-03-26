@@ -113,11 +113,559 @@
     background-color: #FF5400;
 }
 
+/* popular tour */
+
+.popular-tours {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.popular-tours-left {
+    margin: 0;
+}
+
+.popular-tours-left h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.popular-tours-left h3 {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.popular-tours-left ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.popular-tours-left p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.popular-tours-right {
+    margin: 0;
+}
+
+/* destination */
+
+.destination {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.destination-details h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-details p {
+    max-width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.destination-one {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.destination-one img {
+    width: 100%;
+    height: 286px;
+}
+
+.destination-two {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.destination-two img {
+    width: 100%;
+    height: 286px;
+}
+
+.destination-three {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.destination-three img {
+    width: 100%;
+    height: 286px;
+}
+
+/* service */
+
+.service-header h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.service-header p {
+    max-width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.service-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.service-column-one {
+    width: 673px;
+    margin: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service-column-one i {
+    font-size: 4rem;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.service-column-one h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+.service-column-one p {
+    max-width: 568px;
+    margin: 32px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.service-column-two {
+    width: 673px;
+    margin: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.service-column-two i {
+    font-size: 4rem;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.service-column-two h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+.service-column-two p {
+    max-width: 568px;
+    margin: 32px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.service-column-three {
+    width: 673px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-bottom: 100px;
+}
+
+.service-column-three i {
+    font-size: 4rem;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.service-column-three h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+.service-column-three p {
+    max-width: 568px;
+    margin: 32px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* deals section */
+
+.deals-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.deals-header h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-header p {
+    max-width: 743px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deals-offer-one {
+    background-image: url(./Group\ 39.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.deals-main {
+    width: 679px;
+    height: 389px;
+    margin: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-right: 55px;
+
+}
+
+.deals-condition {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 24px;
+    margin-bottom: 26px;
+}
+
+.deals-time {
+    margin: 0;
+}
+
+.deals-time i {
+    font-size: 1rem;
+    color: #FF5400;
+}
+
+.deals-time span {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+}
+
+.deals-about {
+    margin-left: 50px;
+}
+
+.deals-about h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.deals-about p {
+    max-width: 552px;
+    margin: 0;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.deals-about h3 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-btn {
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.deals-offer-two {
+    background-image: url(./Group\ 40.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.deals-main-two {
+    width: 679px;
+    height: 389px;
+    margin: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 55px;
+}
+
+.all-packages {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 100px;
+}
+
+.packages-btn {
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* review */
+.review {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.review-left {
+    width: 50%;
+    margin: 0;
+}
+
+.review-left h1 {
+    max-width: 548px;
+    margin: 0;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.review-left p {
+    max-width: 632px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.review-left ul li {
+    max-width: 618px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.review-left button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin: 0;
+    margin-top: 48px;
+}
+
+.review-right {
+    background-image: url(./Group\ 40089.png);
+    height: 500px;
+    width: 45%;
+    background-size: cover;
+}
+
+.review-right h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 226px;
+    max-width: 276px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+/* Newsletter */
+
+.Newsletter {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.Newsletter-left {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin: 0;
+    height: 422px;
+
+}
+
+.Newsletter-left h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 16px;
+}
+
+.Newsletter-left p {
+    max-width: 450px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-left: 50px;
+    margin-bottom: 48px;
+}
+
+.newslatter-form {
+    width: 393px;
+    height: 52px;
+    margin-left: 50px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 0px 20px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.newslatter-btn {
+    width: 428px;
+    height: 52px;
+    margin-left: 50px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+.Newsletter-right{
+    width: 55%;
+    height: 422px;
+}
+.Newsletter-right img{
+    width: 100%;
+    height: 100%;
+}
 /* responsive media queries */
 
 /* mobile devieces */
 
 @media screen and (max-width: 576px) {
+
     .header-main {
         flex-direction: column;
         margin: 5px;
@@ -144,7 +692,7 @@
 
     .header-banner {
         width: 335px;
-    
+
         background-size: cover;
         background-position: center;
     }
@@ -154,14 +702,16 @@
         padding: 64px 32px;
         padding-bottom: 20px;
     }
-    .header-banner p{
+
+    .header-banner p {
         font-size: 1rem;
         margin-bottom: 32px;
         padding: 0;
         margin-left: 16px;
         margin-right: 16px;
     }
-    .header-banner-btn{
+
+    .header-banner-btn {
         padding-bottom: 32px;
     }
 
@@ -172,10 +722,110 @@
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-     
+
     }
 
     .banner-btn {
         margin-bottom: 15px;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .popular-tours-left {
+        margin: 20px;
+    }
+
+    .popular-tours-right img {
+        width: 100%;
+
+    }
+
+    .destination-one {
+        flex-direction: column;
+    }
+
+    .destination-two {
+        flex-direction: column;
+    }
+
+    .destination-three {
+        flex-direction: column;
+    }
+
+    .service-row {
+        flex-direction: column;
+    }
+
+    .service-column-one {
+        width: 100%;
+    }
+
+    .service-column-two {
+        width: 100%;
+    }
+
+    .service-column-three {
+        width: 100%;
+    }
+
+    .deals-offer-one {
+        background-size: cover;
+        height: 600px;
+        margin: 24px 10px;
+        justify-content: center;
+    }
+
+    .deals-main {
+        width: 80%;
+        height: 80%;
+        margin: 0px;
+    }
+
+    .deals-offer-two {
+        background-size: cover;
+        height: 600px;
+        justify-content: center;
+        margin: 24px 10px;
+    }
+
+    .deals-main-two {
+        width: 80%;
+        height: 80%;
+        margin: 0px;
+    }
+
+    .review {
+        flex-direction: column;
+    }
+
+    .review-left {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .review-right {
+        height: 200px;
+        width: 95%;
+        margin: auto;
+        border-radius: 16px;
+    }
+    .Newsletter{
+        flex-direction: column;
+    }
+    .Newsletter-left{
+        width: 90%;
+        margin: auto;
+    }
+    .newslatter-form{
+        width: 60%;
+    }
+    .newslatter-btn{
+        width: 60%;
+    }
+    .Newsletter-right{
+        width: 90%;
+        margin: auto;
     }
 }
